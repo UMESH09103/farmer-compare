@@ -5,7 +5,7 @@ import Home from './components/Home.jsx';
 import ShopperDashboard from './components/ShopperDashboard.jsx';
 import ShopProducts from './components/ShopProducts.jsx';
 import Login from './components/Login.jsx';
-import Register from './components/register.jsx';
+import Register from './components/Register.jsx';
 import ComparePage from './components/ComparePage.jsx'; // Add this import
 import { useAuth } from './contexts/AuthContext'; // Assuming you have an AuthContext
 
