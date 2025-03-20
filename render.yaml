@@ -1,0 +1,16 @@
+services:
+  # Frontend Service
+  - type: web
+    name: farmer-frontend
+    env: static
+    buildCommand: cd frontend && npm install && npm run build
+    staticPublishPath: frontend/build
+    rootDir: frontend
+
+  # Backend Service
+  - type: web
+    name: farmer-backend
+    env: node
+    buildCommand: cd backend && npm install
+    startCommand: node app.js
+    rootDir: backend
