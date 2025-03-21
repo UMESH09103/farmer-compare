@@ -12,7 +12,7 @@ const fs = require('fs');
 const cloudinary = require('cloudinary').v2;
 const User = require('./models/User');
 const Shop = require('./models/Shop');
-const Product=require('./models/Product');
+const Product=require('./models/product');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
